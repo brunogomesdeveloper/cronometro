@@ -1,0 +1,49 @@
+
+.container{
+    margin: 1%;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+
+.principal{
+    border: 5px solid #EFEFEF;
+    background: #FEFEFE;
+    margin:5%;
+    padding: 1%;
+}
+
+.timer{
+    width: 100%;
+    font-size: 120px;
+    color: #4dc7b8;
+    text-shadow: #4dc7b8;
+    font-family: Helvetica;
+    letter-spacing: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn{
+    width: 350px;
+    height: 80px;
+    font-size: 40px !important;
+}
+
+
+.anuncio{
+    background-image: url('./6003853.jpg');
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+}
+
+
+.icone{
+    background-image: url('./cronometro-online.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+}

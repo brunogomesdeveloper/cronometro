@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="./javascript.js"></script>
+    <title>Cronometro</title>
+</head>
+<body>
+
+
+    <div class="container text-center">
+       
+        <div class="row principal">
+
+            <div class="row justify-content-center">
+                <div class="col-2 icone m-3">
+                   
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div id="timer" class="col-8 timer">
+                    00:00:000
+                </div>
+                
+            </div>
+            <div class="row justify-content-center">
+                <div id="lastTimer" class="col-8 m-2">
+                    Last time : 00:00:000
+                </div>
+                
+            </div>
+
+            <div class="row justify-content-center buttons">
+                <div class="col-4" >
+                    <button id="button_start" onclick="startClick()" type="button" class="btn btn-success btn-block">
+                        Start
+                    </button>
+                </div>
+                <div class="col-4">
+                    <button id="button_reset" type="button" onclick="resetClick()" class="btn btn-secondary btn-block">
+                        Reset 
+                        </button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!--
+             <div class="row justify-content-center" >
+            <div class="col-8 anuncio">
+              
+            </div>    
+        </div>
+
+        -->
+
+       
+    
+    </div>
+
+
+
+
+
+
+    
+
+</body>
+</html>
